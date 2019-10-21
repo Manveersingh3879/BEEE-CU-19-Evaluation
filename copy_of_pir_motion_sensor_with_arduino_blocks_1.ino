@@ -13,7 +13,7 @@ void loop()
   buttonState = digitalRead(2);
   if (buttonState == HIGH) {
     digitalWrite(13, HIGH);
-    delay(10000); 
+    delay(10); 
   } else {
     digitalWrite(13, LOW);
   }
@@ -21,7 +21,7 @@ void loop()
    buttonState = digitalRead(4);
   if (buttonState == HIGH) {
     digitalWrite(12, HIGH);
-    delay(20000);
+    delay(20);
   } else
      {
     digitalWrite(12, LOW);
